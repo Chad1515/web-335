@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>420</x>
+      <y>160</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>                
+            	 ENROLLMENT
+-------------------------------------------
+             
+             	  a. term
+             	  b. gpa
+             	  c. startDate
+             	  d. endDate
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>660</x>
+      <y>550</y>
+      <w>200</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>                
+            	 		    COURSE
+-------------------------------------------
+             
+             	  a. courses
+             	  b. description 
+             	  c. instructor
+             	  d. score
+             	  e. letterGrade
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>300</y>
+      <w>210</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= N
+m2=     1
+</panel_attributes>
+    <additional_attributes>190.0;250.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>620</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+m1= 1
+m2= N
+</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>300</y>
+      <w>230</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=   1
+m2=N
+</panel_attributes>
+    <additional_attributes>10.0;240.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>200</x>
+      <y>540</y>
+      <w>200</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>                
+                STUDENT
+-------------------------------------------
+             
+             a. studentID
+             b. firstName
+             c. lastName
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>480</x>
+      <y>560</y>
+      <w>100</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>type=decision
+
+Enrolls
+
+bg=cyan</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
