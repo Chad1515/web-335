@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "NodeShopper": {
         "customer": [
@@ -54,4 +55,62 @@
             }
         ]
     }
+=======
+{
+    "NodeShopper": {
+        "customer": [
+            {
+                "_id": "007",
+                "firstName": "James",
+                "lastName": "Bond",
+                "dateOfBirth": "11/01/1980",
+                "userName": "jamesbond",
+                "invoice": [
+                    {
+                        "_id": "007007",
+                        "createDate": "10/27/22",
+                        "shipDate": "10/28/22",
+                        "subtotal": 100000.00,
+                        "lineitem": [
+                            {
+                                "_id": "1234",
+                                "productName": "Aston Martin",
+                                "price": 100000.00,
+                                "quantity": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    "NodeTech": {
+        "student": [
+            {
+                "studentId": 116748,
+                "firstName": "Chad",
+                "lastName": "ONeal",
+                "enrollment": [
+                    {
+                        "term": "Fall 2022",
+                        "gpa": 5.0,
+                        "startDate": "10/17/22",
+                        "endDate": "12/18/22",
+                        "course": [
+                            {
+                                "courseId": "web-335",
+                                "description": "Introduction to NoSQL",
+                                "instructor": "Richard Krasso",
+                                "score": 1000,
+                                "letterGrade": "A++"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+>>>>>>> 7f4f61d7c33ae3846a6784bc435dcbbae2a07045
 }

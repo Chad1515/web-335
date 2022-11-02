@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "publisher": {
         "publisher_code": 989900011,
@@ -20,4 +21,28 @@
         }
       ]
     }
+=======
+{
+    "publisher": {
+        "publisher_code": 989900011,
+        "publisher_name": "Walnut Grove Press",
+        "publisher_address": "Nashville, TN",
+        "book": [
+         {
+        "book_isbn": 1887655301,
+        "book name": "The Fisherman's Guide to Life",
+        "book_price": "$6.95",
+        "author": [
+            {
+              "_id": "0007",
+              "author_firstName": "Criswell",
+              "author_lastName": "Freeman",
+              "author_phone": 123-456-7890,
+              "author_email": "cfreeman@gmail.com"
+            }
+          ]
+        }
+      ]
+    }
+>>>>>>> 7f4f61d7c33ae3846a6784bc435dcbbae2a07045
   }
